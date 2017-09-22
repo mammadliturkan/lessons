@@ -1,0 +1,24 @@
+* {margin:0; padding:0;}
+.container {width:100%; height:1100px; display:flex; flex-wrap:wrap; flex-direction:row; background:lightblue; box-sizing:border-box;}
+.container img {width:100%; height:100%;}
+.container header {width:70%; height:70px; //background:royalblue; margin-left:15%; margin-top:5%; position:absolute;}
+.container header h1 {color:#fff; font-family:Arial; text-align:center; line-height:70px;}
+.container #content {width:70%; height:auto; //background:white; margin-left:15%; margin-top:15%; position:absolute; display:flex;}
+.container .content { width:45%; //height:300px; display:flex; background:rgba(82,86,98,0.7); margin-left:3%; position:relative; display:flex; flex-wrap:wrap; flex-direction:row; padding-bottom:3%;}
+.container .content .delete {width:100%; height:20px; //background:#000; display:flex; flex-wrap:wrap; flex-direction:row-reverse; margin-top:5%; position:relative;}
+.container .content .delete img {width:16px; height:16px; cursor:pointer; margin-right:5%;}
+.container .content h3 {width:100%; color:#fff; //background:red; height:30px; line-height:30px; text-align:center; font-family:Arial; margin-bottom:2%;}
+.container .content form {width:90%; //background:purple; //height:200px; //margin-top:5%; margin-left:5%; margin-right:5%;}
+.container .content form input {width:100%; height:30px; margin-bottom:2%; text-indent:5px; border:none; }
+.container .content form input[type=submit] { background:#00b8e6; color:#fff; font-family:Tahoma; font-weight:bold; margin-top:3%; cursor:pointer;}
+.container .content form input:focus {outline:none;}
+.container .content form input[type=checkbox] {width:7%; background-color:transparent; height:30px; border:1px solid #fff; float:left; margin-top:5%;}
+.container .content form span {display:inline-block; color:#fff; //background:red; margin-left:2%; font-family:Tahoma; font-size:12px; margin-top:5%; width:20%; height:30px;}
+.container .content form a {color:#fff; font-family:Tahoma; font-size:12px; text-decoration:none; margin-left:40%; width:30%; //background:red; display:inline-block; height:30px;}
+.container .content form a:hover {text-decoration:underline;}
+.container .content #social {width:70%; height:auto; //background:red; text-align:center; color:#fff; font-family:Tahoma; margin-top:5%; margin-left:15%;}
+.container .content #social .social {width:10%; //margin-left:1%; height:50%; //background:#fff; display:inline-block; margin-top:2%;}
+.container .content #social .social a img {width:80%; height:100%;}
+.container footer { width:70%; height:70px; //background:royalblue; margin-left:15%; position:absolute; margin-top:50%; line-height:70px; color:#fff; text-align:center; font-weight:bold;}
+
+
